@@ -40,3 +40,27 @@
     background-color: gray;
     border: none;
 }
+@media (max-width:750px) {
+    .footer-Content{
+        display: flex;
+        flex-direction: column;
+        
+        gap: 35px;
+    }
+    .footer-copy-right{
+        text-align: center;
+    }
+    .mobile{
+        padding: 10px;
+        display: flex;
+        gap: 200px;
+    }
+    .footer-content-center{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .mb{
+        margin-bottom: 15px;
+    }
+}
