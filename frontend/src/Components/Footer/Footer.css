@@ -15,13 +15,13 @@
     grid-template-columns: 2fr 1fr 1fr;
     gap: 80px;
 }
-.footer-content-left,.footer-content-center,.footet-content-right{
+.footer-content-left,.footer-content-center,.footer-content-right{
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 20px;
 }
-.footer-content-left li,.footer-content-center li ,.footet-content-right li{
+.footer-content-left li,.footer-content-center li ,.footer-content-right li{
     list-style: none;
     margin-bottom: 10px;
     cursor: pointer;
@@ -50,17 +50,11 @@
     .footer-copy-right{
         text-align: center;
     }
-    .mobile{
-        padding: 10px;
-        display: flex;
-        gap: 200px;
-    }
+    
     .footer-content-center{
         display: flex;
         flex-direction: column;
         gap: 5px;
     }
-    .mb{
-        margin-bottom: 15px;
-    }
+    
 }

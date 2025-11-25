@@ -14,22 +14,20 @@ const Footer = () => {
                         <img src={assets.linkedin_icon} alt="" />
                     </div>
                 </div>
-               <div className='mobile'>
-                 <div className="footer-content-center">
+                <div className="footer-content-center">
                     <h2 className='mb'>Company</h2>
                     <li>Home</li>
                     <li>About Us</li>
                     <li>Deleivery</li>
                     <li>Privacy Policy</li>
                 </div>
-                <div className="footet-content-right">
+                <div className="footer-content-right">
                     <h2>Get In Touch</h2>
                     <ul>
                         <li>0347-5157172</li>
                         <li>contact@tomato.com</li>
                     </ul>
                 </div>
-               </div>
             </div>
             <hr />
             <p className='footer-copy-right'>CopyRight 2024 Tomato.com-All rights reserved</p>
